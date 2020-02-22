@@ -126,7 +126,7 @@ p {
 
 .methods ul {
     text-align: justify;
-    padding: 20px
+    margin: 10px
 }
 
 .methods ul li {
@@ -159,4 +159,14 @@ footer a:hover {
     color: lawngreen;
     transition: 1s;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 25%;
+    }
+
+    .carousel-inner {
+        height: 35rem;
+    }
 }
