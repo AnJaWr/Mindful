@@ -1,7 +1,18 @@
 .header {
-    /* height: 100vh; */
+    height: 100vh;
     /* width: 100%; */
     position: relative;
+}
+
+h1 {
+    font-size: 1.7rem;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-size: 1.5rem;
 }
 
 .carousel-inner {
@@ -19,16 +30,10 @@
     position: relative;
     background-size: contain;
     z-index: 1;
-    top: 2rem;
-    /* left: 50%;
-    right: auto */
+    top: 1rem;
 }
 
-.navigation {
-    position: absolute;
-    bottom: 0;
-    z-index: 5;
-}
+
 
 p,
 h2,
@@ -37,20 +42,84 @@ h3 {
     padding: 10px;
 }
 
-.nav_div {
-    background-color: rgb(92, 155, 29);
-    padding: 20px
+
+/* N A W I G A T I O N */
+
+.navigation {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    width: 100%;
 }
 
-.nav_div a,
+
+.nav a,
 .nav_div i {
     color: white;
+    text-decoration: none;
 }
 
 p {
     text-align: justify;
 }
 
-.unbroken {
-    content: "\00A0";
+.social {
+    padding: 0 20px;
+}
+
+.social:hover {
+    color: rgb(7, 24, 24);
+    transition: 0.3s;
+}
+
+.nav_div {
+    padding: 20px
+}
+
+.nav_div:hover {
+    background-color: rgb(18, 80, 121);
+    transition: 1s;
+}
+
+.nav_div__inner {
+    width: 100%;
+
+}
+
+.nav_div--one {
+    background-color: rgb(92, 155, 29);
+}
+
+.nav_div--two {
+    background-color: rgb(71, 117, 24);
+}
+
+.nav_div--three {
+    background-color: rgb(100, 163, 36)
+}
+
+.nav_div--four {
+    background-color: rgb(111, 180, 42)
+}
+
+.nav_div--five {
+    background-color: rgb(92, 155, 29);
+}
+
+.nav_div--six {
+    background-color: rgb(61, 107, 15);
+}
+
+/* s e c t i o n s  */
+.about {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* accordeon */
+
+.card-body {
+    background-color: lawngreen;
+    text-align: justify;
+
 }
