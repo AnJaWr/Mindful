@@ -46,3 +46,11 @@ h3 {
 .nav_div i {
     color: white;
 }
+
+p {
+    text-align: justify;
+}
+
+.unbroken {
+    content: "\00A0";
+}
