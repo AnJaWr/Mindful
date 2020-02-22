@@ -116,10 +116,47 @@ p {
     color: white;
 }
 
+.ideas p {
+    background-color: cornflowerblue
+}
+
+.section_header p {
+    background-color: white;
+}
+
+.methods ul {
+    text-align: justify;
+    padding: 20px
+}
+
+.methods ul li {
+    padding: 20px 0 0 0
+}
+
 /* accordeon */
 
 .card-body {
     background-color: lawngreen;
     text-align: justify;
 
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: cornflowerblue
+}
+
+footer a:hover {
+    color: lawngreen;
+    transition: 1s;
+    text-decoration: none;
 }
