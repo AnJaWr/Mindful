@@ -1,8 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     height: 100vh;
     /* width: 100%; */
     position: relative;
 }
+
+.head {
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+
 
 h1 {
     font-size: 1.7rem;
@@ -12,7 +23,7 @@ h1 {
 
 h2,
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .carousel-inner {
@@ -22,7 +33,7 @@ h3 {
 }
 
 .logo {
-    height: 50vh;
+    height: 65vh;
     width: 70vW;
     background-image: url(../img/logo.jpg);
     background-position: center;
@@ -33,7 +44,10 @@ h3 {
     top: 1rem;
 }
 
-
+section {
+    position: relative;
+    margin-bottom: 20px;
+}
 
 p,
 h2,
@@ -41,6 +55,40 @@ h3 {
     margin: 5px;
     padding: 10px;
 }
+
+
+
+/* p  a r a l a x a */
+.parallax {
+    height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.parallax-1 {
+    background-image: url(../img/family-outing-421653_1920.jpg);
+}
+
+.parallax-2 {
+    background-image: url(../img/crayons-1445053_1920.jpg);
+}
+
+.parallax-3 {
+    background-image: url(../img/children-532749_1920.jpg);
+}
+
+.parallax-4 {
+    background-image: url(../img/boy-2959309_1920.jpg);
+}
+
+.parallax-5 {
+    background-image: url(../img/teddy-bear-524251_1920.jpg);
+}
+
+
+
 
 
 /* N A W I G A T I O N */
@@ -57,6 +105,7 @@ h3 {
 .nav_div i {
     color: white;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 p {
@@ -73,7 +122,11 @@ p {
 }
 
 .nav_div {
-    padding: 20px
+    padding: 20px;
+    background-color: rgba(22, 41, 4, 0.479);
+    display: flex;
+    justify-content: center;
+
 }
 
 .nav_div:hover {
@@ -83,32 +136,8 @@ p {
 
 .nav_div__inner {
     width: 100%;
-
 }
 
-.nav_div--one {
-    background-color: rgb(92, 155, 29);
-}
-
-.nav_div--two {
-    background-color: rgb(71, 117, 24);
-}
-
-.nav_div--three {
-    background-color: rgb(100, 163, 36)
-}
-
-.nav_div--four {
-    background-color: rgb(111, 180, 42)
-}
-
-.nav_div--five {
-    background-color: rgb(92, 155, 29);
-}
-
-.nav_div--six {
-    background-color: rgb(61, 107, 15);
-}
 
 /* s e c t i o n s  */
 .about {
@@ -159,6 +188,10 @@ footer a:hover {
     color: lawngreen;
     transition: 1s;
     text-decoration: none;
+}
+
+.card-header .btn {
+    text-align: left;
 }
 
 @media (max-width: 768px) {
