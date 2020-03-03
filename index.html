@@ -15,6 +15,47 @@
 <body>
 
     <header class="justify-items-start">
+        <!-- Navigation -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <a class="navbar-brand" href="#"><i class="fas fa-leaf"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Kim jesteśmy?</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cele, idee, wartości
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#goals">Cele</a>
+                            <a class="dropdown-item" href="#ideas">Idee</a>
+                            <a class="dropdown-item" href="#values">Wartości</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#methods">Metody</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parents">Dla rodziców</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active"> <img src="img/1c.jpg" class="d-block w-100">
@@ -37,6 +78,11 @@
                 <div class="logo container-fluid"></div>
 
             </div>
+
+
+
+
+            <!--
             <nav class="nav">
                 <div class="navigation container-fluid">
 
@@ -76,11 +122,11 @@
                         </div>
                     </div>
                 </div>
-        </div>
-        </div>
-        </div>
-        </nav>
+            </div>
+            </div>-->
 
+
+        </div>
     </header>
 
     <section class="head">
@@ -217,9 +263,9 @@
 
     </section>
     <div class="parallax parallax-2"></div>
-    <section id="ideas" class="ideas">
+    <section id="goals">
         <h2>
-            NASZE CELE I IDEE</h2>
+            NASZE CELE</h2>
         <div class="section_header">
             <p> Pragniemy stworzyć miejsce, gdzie dzieci na równi z<span>&#160;</span>dorosłymi będą współtworzyły
                 proces
@@ -262,8 +308,9 @@
                 jako bezcenne oznaki tego, że dziecko doświadcza nadmiernego stresu.</p>
 
         </div>
-
-
+    </section>
+    <section id="ideas" class="">
+        <h2>IDEE, KTÓRE NAM PRZYŚWIECAJĄ</h2>
         <div class="accordion" id="accordionIdeas">
             <div class="card">
                 <div class="card-header" id="headingOne">
@@ -467,7 +514,7 @@
     <!-- <hr> -->
     <div class="parallax parallax-3"></div>
     <!-- par Metody-->
-    <section id="methods" class="methods">
+    <section id="methods">
 
         <h2>NASZE METODY</h2>
         <ul>

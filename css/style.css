@@ -1,205 +1,185 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-    height: 100vh;
-    /* width: 100%; */
-    position: relative;
+  height: 100vh;
+  /* width: 100%; */
+  position: relative;
+}
+
+.carousel {
+  position: relative;
 }
 
 .head {
-    margin: 50px 0 50px 0;
-    text-align: center;
+  margin: 50px 0 50px 0;
+  text-align: center;
 }
 
-
 h1 {
-    font-size: 1.7rem;
-    color: cornflowerblue;
-    text-align: center;
+  font-size: 1.7rem;
+  color: cornflowerblue;
+  text-align: center;
 }
 
 h2,
 h3 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .carousel-inner {
-    height: 100vh;
-    width: 100%;
-
+  height: 100vh;
+  width: 100%;
 }
 
 .logo {
-    height: 65vh;
-    width: 70vW;
-    background-image: url(../img/logo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: contain;
-    z-index: 1;
-    top: 1rem;
+  height: 65vh;
+  width: 70vw;
+  background-image: url(../img/logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+  z-index: 1;
+  top: 2rem;
 }
 
 section {
-    position: relative;
-    margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 p,
 h2,
 h3 {
-    margin: 5px;
-    padding: 10px;
+  margin: 5px;
+  padding: 10px;
 }
-
-
 
 /* p  a r a l a x a */
 .parallax {
-    height: 450px;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
+  height: 450px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .parallax-1 {
-    background-image: url(../img/family-outing-421653_1920.jpg);
+  background-image: url(../img/family-outing-421653_1920.jpg);
 }
 
 .parallax-2 {
-    background-image: url(../img/crayons-1445053_1920.jpg);
+  background-image: url(../img/crayons-1445053_1920.jpg);
 }
 
 .parallax-3 {
-    background-image: url(../img/children-532749_1920.jpg);
+  background-image: url(../img/children-532749_1920.jpg);
 }
 
 .parallax-4 {
-    background-image: url(../img/boy-2959309_1920.jpg);
+  background-image: url(../img/boy-2959309_1920.jpg);
 }
 
 .parallax-5 {
-    background-image: url(../img/teddy-bear-524251_1920.jpg);
+  background-image: url(../img/teddy-bear-524251_1920.jpg);
 }
-
-
-
-
 
 /* N A W I G A T I O N */
 
-.navigation {
-    position: absolute;
-    bottom: 0;
-    z-index: 5;
-    width: 100%;
+.nav-item {
+  padding: 10px 20px;
 }
 
-
-.nav a,
-.nav_div i {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
+.nav-item a {
+  font-weight: bold;
 }
-
-p {
-    text-align: justify;
-}
-
 .social {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .social:hover {
-    color: rgb(7, 24, 24);
-    transition: 0.3s;
+  color: rgb(7, 24, 24);
+  transition: 0.3s;
 }
 
 .nav_div {
-    padding: 20px;
-    background-color: rgba(22, 41, 4, 0.479);
-    display: flex;
-    justify-content: center;
-
+  padding: 20px;
+  background-color: rgba(22, 41, 4, 0.479);
+  display: flex;
+  justify-content: center;
 }
 
 .nav_div:hover {
-    background-color: rgb(18, 80, 121);
-    transition: 1s;
+  background-color: rgb(18, 80, 121);
+  transition: 1s;
 }
 
 .nav_div__inner {
-    width: 100%;
+  width: 100%;
 }
-
 
 /* s e c t i o n s  */
 .about {
-    /* background-color: darkgreen;
+  /* background-color: darkgreen;
     color: white; */
 }
 
 .ideas p {
-    background-color: cornflowerblue
+  background-color: cornflowerblue;
 }
 
 .section_header p {
-    background-color: white;
+  background-color: white;
 }
 
 .methods ul {
-    text-align: justify;
-    margin: 10px
+  text-align: justify;
+  margin: 10px;
 }
 
 .methods ul li {
-    padding: 20px 0 0 0
+  padding: 20px 0 0 0;
 }
 
 /* accordeon */
 
 .card-body {
-    background-color: lawngreen;
-    text-align: justify;
-
+  background-color: lawngreen;
+  text-align: justify;
 }
 
 footer {
-    background-color: darkgreen;
-    color: white;
-
+  background-color: darkgreen;
+  color: white;
 }
 
 footer p {
-    text-align: center;
+  text-align: center;
 }
 
 footer a {
-    color: cornflowerblue
+  color: cornflowerblue;
 }
 
 footer a:hover {
-    color: lawngreen;
-    transition: 1s;
-    text-decoration: none;
+  color: lawngreen;
+  transition: 1s;
+  text-decoration: none;
 }
 
 .card-header .btn {
-    text-align: left;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
-    .logo {
-        height: 25%;
-    }
+  .logo {
+    height: 25%;
+  }
 
-    .carousel-inner {
-        height: 35rem;
-    }
+  .carousel-inner {
+    height: 35rem;
+  }
 }
