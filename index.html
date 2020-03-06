@@ -10,79 +10,96 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon//favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-success">
+        <a class="navbar-brand" href="#">Mindful</i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutPushed">Kim jesteśmy?</a>
+                </li>
 
-    <header class="justify-items-start">
-        <!-- Navigation -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cele, idee, wartości
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#goalsPushed">Cele</a>
+                        <a class="dropdown-item" href="#ideasPushed">Idee</a>
+                        <a class="dropdown-item" href="#valuesPushed">Wartości</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#methodsPushed">Metody</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dla Rodziców
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="rozklad.html">Ramowy rozkład dnia</a>
+                        <a class="dropdown-item" href="doc/KARTA_ZGŁOSZENIA_DZIECKA_MK.pdf">Formularz zgłoszeniowy</a>
+                        <a class="dropdown-item" href="oferta.html">Oferta</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactPushed">Kontakt</a>
+                </li>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-success">
-            <a class="navbar-brand" href="#"><i class="fas fa-leaf"></i></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Kim jesteśmy?</a>
-                    </li>
+            </ul>
+        </div>
+        <div class="nav-item">
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Cele, idee, wartości
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#goals">Cele</a>
-                            <a class="dropdown-item" href="#ideas">Idee</a>
-                            <a class="dropdown-item" href="#values">Wartości</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#methods">Metody</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#parents">Dla rodziców</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Kontakt</a>
-                    </li>
-                </ul>
+            <a href="https://www.facebook.com/mindfulkidsbielsko"><i class="fab fa-facebook-square social"></i></a>
+        </div>
+        <!-- </div> -->
+    </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="logo container-fluid"></div>
+            <div class="carousel-item active"> <img src="img/1c.jpg" class="d-block w-100">
             </div>
-        </nav>
-
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active"> <img src="img/1c.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/2c.jpg" class="d-block w-100" alt="kasztany">
-                </div>
-                <div class="carousel-item  h-100">
-                    <img src="img/4c.jpg" class="d-block w-100" alt="spacer po pniu">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/5c.jpg" class="d-block w-100" alt="konwalie">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/3c.jpg" class="d-block w-100" alt="mech">
-                </div>
-
-
-
-                <div class="logo container-fluid"></div>
-
+            <div class="carousel-item">
+                <img src="img/2c.jpg" class="d-block w-100" alt="kasztany">
+            </div>
+            <div class="carousel-item">
+                <img src="img/4c.jpg" class="d-block w-100" alt="spacer po pniu">
+            </div>
+            <!-- <div class="carousel-item">
+                <img src="img/5c.jpg" class="d-block w-100" alt="konwalie">
+            </div> -->
+            <div class="carousel-item">
+                <img src="img/3c.jpg" class="d-block w-100" alt="mech">
             </div>
 
+        </div>
 
 
 
-            <!--
+
+        <!--
             <nav class="nav">
                 <div class="navigation container-fluid">
 
@@ -126,21 +143,32 @@
             </div>-->
 
 
+    </div>
+
+    <header class="header">
+        <div class="header-inner container-fluid">
+
+
+            <div class="logo--mobile"></div>
+            <div class="header_inner">
+                <h1>Alternatywna forma wychowania przedszkolnego</h1>
+
+                <p> Mindful Kids nie jest zwykłym przedszkolem. Tworzymy małe, 8-osobowe grupy, prowadzone przez
+                    wychowawcę
+                    ze
+                    znajomością języka angielskiego!</p>
+            </div>
         </div>
     </header>
 
-    <section class="head">
-
-        <h1>Alternatywna forma wychowania przedszkolnego</h1>
-
-        Mindful Kids nie jest zwykłym przedszkolem. Tworzymy małe, 8-osobowe grupy, prowadzone przez wychowawcę ze
-        znajomością języka angielskiego!
-    </section>
     <div class="parallax parallax-5"></div>
+
     <section id="about" class="about">
+        <span id="aboutPushed" class="pushed"></span>
         <h2> KIM JESTEŚMY?</h2>
         <p> Tworzymy zespół doświadczonych pedagogów, którzy łączą doświadczenie pedagogiczne
-            z<span>&#160;</span>pasją nauczania, odkrywania i<span>&#160;</span>ciągłego samorozwoju. Podstawą naszych
+            z<span>&#160;</span>pasją nauczania, odkrywania i<span>&#160;</span>ciągłego samorozwoju. Podstawą
+            naszych
             działań
             jest szacunek dla godności i<span>&#160;</span>indywidualności każdego człowieka.
         </p>
@@ -149,15 +177,20 @@
             kierujemy się przede wszystkim wnikliwą obserwacją każdego dziecka, ideami rodzicielstwa
             bliskości oraz najnowszymi osiągnięciami neuronauki, które odsłaniają tajemnicę tego,
             co rządzi naszym postępowaniem. Ogromny nacisk kładziemy również na własny rozwój
-            oraz atmosferę otwartości, życzliwości i<span>&#160;</span>współpracy, gdyż wierzymy, że najważniejszy
+            oraz atmosferę otwartości, życzliwości i<span>&#160;</span>współpracy, gdyż wierzymy, że
+            najważniejszy
             dla dzieci jest przykład postępowania otaczających ich dorosłych.</p>
         <p>
-            Pragniemy zapewnić dzieciom możliwość spędzania czasu w<span>&#160;</span>miejscu, gdzie ich potrzeby
+            Pragniemy zapewnić dzieciom możliwość spędzania czasu w<span>&#160;</span>miejscu, gdzie ich
+            potrzeby
             będą wartością nadrzędną, a<span>&#160;</span>emocje bezwarunkowo akceptowane. Naszą misją
             jest stworzenie ciepłej, rodzinnej atmosfery, opartej na metodzie samoregulacji, wychowaniu
-            bez nagród i<span>&#160;</span>kar, porozumienia bez przemocy, pedagogiki Marii Montessori oraz edukacji
-            demokratycznej, aby wspierać i<span>&#160;</span>rozwijać kreatywność dzieci. Proponujemy zatem naturalne,
-            holistyczne oraz indywidualne podejście do każdego dziecka, w<span>&#160;</span>którym stawiamy na zabawę
+            bez nagród i<span>&#160;</span>kar, porozumienia bez przemocy, pedagogiki Marii Montessori oraz
+            edukacji
+            demokratycznej, aby wspierać i<span>&#160;</span>rozwijać kreatywność dzieci. Proponujemy zatem
+            naturalne,
+            holistyczne oraz indywidualne podejście do każdego dziecka, w<span>&#160;</span>którym stawiamy na
+            zabawę
             jako główną formę aktywności dzieci. Chcemy stworzyć bogate sensorycznie otoczenie,
             aby inspirować dzieci do twórczej aktywności.</p>
     </section>
@@ -165,7 +198,8 @@
     <div class="parallax parallax-1"></div>
 
 
-    <section id="values">
+    <section id="values" class="values">
+        <span id="valuesPushed" class="pushed"></span>
         <h2>NASZE WARTOŚCI</h2>
         <p>
             Naszą największą wartością jest szacunek dla godności i<span>&#160;</span>indywidualności każdego
@@ -213,9 +247,11 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
 
-                        Integralność osobista to suma uczuć, wartości i<span>&#160;</span>myśli każdego człowieka,
+                        Integralność osobista to suma uczuć, wartości i<span>&#160;</span>myśli każdego
+                        człowieka,
                         szacunku dla siebie
-                        i<span>&#160;</span>innych, a także potrzeba rozwijania się według własnych wyobrażeń oraz
+                        i<span>&#160;</span>innych, a także potrzeba rozwijania się według własnych wyobrażeń
+                        oraz
                         rozwoju
                         osobistego - dotyczy to w równej mierze dorosłych i<span>&#160;</span>dzieci.
                     </div>
@@ -262,12 +298,16 @@
         </div>
 
     </section>
+
     <div class="parallax parallax-2"></div>
-    <section id="goals">
+
+    <section id="goals" class="goals">
+        <span id="goalsPushed" class="pushed"></span>
         <h2>
             NASZE CELE</h2>
         <div class="section_header">
-            <p> Pragniemy stworzyć miejsce, gdzie dzieci na równi z<span>&#160;</span>dorosłymi będą współtworzyły
+            <p> Pragniemy stworzyć miejsce, gdzie dzieci na równi z<span>&#160;</span>dorosłymi będą
+                współtworzyły
                 proces
                 rozwoju swoich umiejętności oraz doświadczeń. Naszym celem jest wspieranie dzieci
                 w samodzielnym odkrywaniu świata poprzez własną aktywność.</p>
@@ -282,22 +322,28 @@
                 zapewniamy
                 oryginalny zestaw
                 pomocy dydaktycznych wzorowany na materiale Montessori, który cechuje prostota, precyzja
-                i<span>&#160;</span>estetyka wykonania, uwzględnienie zasady stopniowania trudności, dostosowanie do
+                i<span>&#160;</span>estetyka wykonania, uwzględnienie zasady stopniowania trudności,
+                dostosowanie do
                 potrzeb
                 rozwojowych dziecka oraz logiczna spójność ogniw ciągów tematycznych.</p>
 
-            <p> Wszystkie materiały są uporządkowane tematycznie i znajdują się w zasięgu ręki dziecka,
+            <p> Wszystkie materiały są uporządkowane tematycznie i<span>&#160;</span>znajdują się
+                w<span>&#160;</span>zasięgu ręki dziecka,
                 które zgodnie z<span>&#160;</span>indywidualnymi potrzebami, odkrywa materiał do ćwiczeń
                 praktycznych,
                 sensorycznych, językowych, matematycznych lub artystycznych. Dzieci mogą również
-                w każdej chwili skorzystać z<span>&#160;</span>miejsc przeznaczonych do relaksu i drzemki.
+                w<span>&#160;</span>każdej chwili skorzystać z<span>&#160;</span>miejsc przeznaczonych do
+                relaksu
+                i<span>&#160;</span>drzemki.
             </p>
             <p>
                 Uważamy, że NIE MA „NIEGRZECZNYCH” DZIECI! Pewne zachowania są tylko
-                i<span>&#160;</span>wyłącznie wyrazem chwilowej niezdolności dziecka do zareagowania na wszystko to,
+                i<span>&#160;</span>wyłącznie wyrazem chwilowej niezdolności dziecka do zareagowania na wszystko
+                to,
                 co dzieje się wewnątrz i<span>&#160;</span>wokół niego. Nie istnieje ani jedno dziecko, które
                 traktowane
-                z<span>&#160;</span>szacunkiem, zrozumieniem i<span>&#160;</span>wrażliwością nie mogłoby odnaleźć
+                z<span>&#160;</span>szacunkiem, zrozumieniem i<span>&#160;</span>wrażliwością nie mogłoby
+                odnaleźć
                 pod
                 naszym kierunkiem
                 ścieżki prowadzącej do życia pełnego sensu. Uczymy zatem patrzenia z<span>&#160;</span>nowej
@@ -309,7 +355,8 @@
 
         </div>
     </section>
-    <section id="ideas" class="">
+    <section id="ideas" class="ideas">
+        <span id="ideasPushed" class="pushed"></span>
         <h2>IDEE, KTÓRE NAM PRZYŚWIECAJĄ</h2>
         <div class="accordion" id="accordionIdeas">
             <div class="card">
@@ -328,11 +375,14 @@
                         postępować.
                         Każde uczucie jest faktem, stąd nadrzędną kwestią jest wysłuchanie dziecka
                         i<span>&#160;</span>umiejętność
-                        wczucia się w jego emocje. Proste “rozumiem” albo “widzę” informuje dziecko, że wszystkie
-                        jego uczucia są ważne- te dobre i<span>&#160;</span>te „złe”, są cząstką jego samego. Dopiero,
+                        wczucia się w jego emocje. Proste “rozumiem” albo “widzę” informuje dziecko, że
+                        wszystkie
+                        jego uczucia są ważne- te dobre i<span>&#160;</span>te „złe”, są cząstką jego samego.
+                        Dopiero,
                         gdy
                         emocje
-                        zostaną ujawnione, wysłuchane i<span>&#160;</span>zaakceptowane, dziecko może się zmienić.
+                        zostaną ujawnione, wysłuchane i<span>&#160;</span>zaakceptowane, dziecko może się
+                        zmienić.
                     </div>
                 </div>
             </div>
@@ -353,10 +403,12 @@
 
                         Każdy akt zwracania się do dziecka jest znaczący, gdyż stanowi budulec,
                         z<span>&#160;</span>którego ma
-                        ukształtować się konkretna osoba. Podczas komunikowania się z<span>&#160;</span>dziećmi używamy
+                        ukształtować się konkretna osoba. Podczas komunikowania się z<span>&#160;</span>dziećmi
+                        używamy
                         zatem
                         komunikacji bez przemocy, zwanej także językiem serca lub empatii, która opiera się na
-                        obserwacji oraz rozpoznawaniu potrzeb i<span>&#160;</span>uczuć, a<span>&#160;</span>także ich
+                        obserwacji oraz rozpoznawaniu potrzeb i<span>&#160;</span>uczuć,
+                        a<span>&#160;</span>także ich
                         wyrażaniu,
                         przy jednoczesnym
                         szacunku wobec uczuć i<span>&#160;</span>potrzeb drugiego człowieka.
@@ -409,7 +461,8 @@
                         z<span>&#160;</span>nowej perspektywy, aby reagować na jego potrzeby
                         i<span>&#160;</span>pomagać mu w
                         <span>&#160;</span>radzeniu sobie
-                        z<span>&#160;</span>sytuacją. Chodzi więc o zasadniczą zmianę nastroju, poziomu koncentracji
+                        z<span>&#160;</span>sytuacją. Chodzi więc o zasadniczą zmianę nastroju, poziomu
+                        koncentracji
                         i<span>&#160;</span>umiejętności
                         zawierania i<span>&#160;</span>utrzymywania przyjaźni oraz odczuwania empatii, a także
                         rozwinięcie
@@ -438,7 +491,8 @@
                         na
                         uważności. Składa się z<span>&#160;</span>delikatnych ruchów rozciągających
                         i<span>&#160;</span>wzmacniających,
-                        które wykonuje się bardzo wolno. W<span>&#160;</span>czasie ćwiczeń utrzymujemy świadomość
+                        które wykonuje się bardzo wolno. W<span>&#160;</span>czasie ćwiczeń utrzymujemy
+                        świadomość
                         oddychania
                         oraz obecność doznań w poszczególnych częściach ciała.
                     </div>
@@ -460,10 +514,12 @@
 
                         Chcemy, aby dzieci mogły obserwować oraz wsłuchiwać się w odgłosy przyrody,
                         a<span>&#160;</span>także
-                        miały zapewnioną otwartą przestrzeń do biegania i<span>&#160;</span>skupienia. Tutaj każdy
+                        miały zapewnioną otwartą przestrzeń do biegania i<span>&#160;</span>skupienia. Tutaj
+                        każdy
                         patyczek,
                         kamyczek, szyszka czy liść staje się niewyczerpanym źródłem inspiracji oraz rozwija
-                        dziecięcą kreatywność, wyobraźnię i<span>&#160;</span>rozumienie otaczającego świata, gdyż
+                        dziecięcą kreatywność, wyobraźnię i<span>&#160;</span>rozumienie otaczającego świata,
+                        gdyż
                         dzieci
                         najlepiej
                         uczą się przez osobiste, wielozmysłowe doświadczanie. Rolą dorosłego jest towarzyszenie
@@ -514,15 +570,16 @@
     <!-- <hr> -->
     <div class="parallax parallax-3"></div>
     <!-- par Metody-->
-    <section id="methods">
-
+    <section id="methods" class="methods">
+        <span id="methodsPushed" class="pushed"></span>
         <h2>NASZE METODY</h2>
         <ul>
             Mając na uwadze indywidualny rozwój emocjonalny, poznawczy, społeczny dzieci, nasze
             działania opieramy na następujących metodach:
 
             <li><b>Metoda samoregulacji dr Stuarta Shankera</b> - pomaga pomóc dzieciom samodzielnie
-                zmienić swoje zachowanie dzięki identyfikacji i<span>&#160;</span>zarządzaniu emocjami, aby powrócić
+                zmienić swoje zachowanie dzięki identyfikacji i<span>&#160;</span>zarządzaniu emocjami, aby
+                powrócić
                 do stanu zrównoważenia, niezbędnego do rozwoju i<span>&#160;</span>drzemiącego
                 w<span>&#160;</span>nich
                 potencjału;
@@ -536,16 +593,20 @@
                 dzieci;</li>
 
             <li><b>Metoda czytania globalnego Glenna Domana </b>- sesje czytania globalnego odbywają się
-                w<span>&#160;</span>formie zabawy, podczas, której dzieci poznają całe wyrazy, postrzegając zapis
-                graficzny wyrazu. Celem „zabawy w<span>&#160;</span>czytanie” jest rozwijanie słuchu, mowy, wzroku,
+                w<span>&#160;</span>formie zabawy, podczas, której dzieci poznają całe wyrazy, postrzegając
+                zapis
+                graficzny wyrazu. Celem „zabawy w<span>&#160;</span>czytanie” jest rozwijanie słuchu, mowy,
+                wzroku,
                 stymulowanie myślenia operacyjnego, ćwiczenie pamięci fotograficznej oraz pobudzanie
                 wyobraźni i<span>&#160;</span>kreatywności;</li>
             <li><b>
                     Metoda bezpośrednia</b> - zaleca używanie podczas zajęć języka angielskiego,
-                aby umożliwić dzieciom postrzeganie i<span>&#160;</span>poznawanie świata w<span>&#160;</span>języku
+                aby umożliwić dzieciom postrzeganie i<span>&#160;</span>poznawanie świata
+                w<span>&#160;</span>języku
                 angielskim;</b></li>
             <li><b> Metoda polisensoryczna</b> - oparta na Teorii Wielorakich Inteligencji Howarda Gardnera,
-                implikuje angażowanie wszystkich zmysłów w proces odkrywania i<span>&#160;</span>poznawania świata,
+                implikuje angażowanie wszystkich zmysłów w proces odkrywania i<span>&#160;</span>poznawania
+                świata,
                 umożliwiając aktywny i<span>&#160;</span>kreatywny udział dzieci w<span>&#160;</span>procesie
                 uczenia
                 się;</li>
@@ -555,10 +616,12 @@
                 należy oddziaływać na sferę wzrokową, słuchową i<span>&#160;</span>ruchową, co umożliwia
                 uaktywnienie
                 pamięci długoterminowej;</li>
-            <li> <b>Metoda komunikacyjna</b> - stanowi przygotowanie do interakcji w<span>&#160;</span>kontekście
+            <li> <b>Metoda komunikacyjna</b> - stanowi przygotowanie do interakcji
+                w<span>&#160;</span>kontekście
                 codziennych doświadczeń, czyli zdobywania podstawowych informacji w<span>&#160;</span>rozmowie.
                 Metoda ta umożliwia więc wykorzystywanie sytuacji zaistniałych na zajęciach do
-                komunikowania się w<span>&#160;</span>języku ojczystym oraz angielskim, najważniejszą wartością tej
+                komunikowania się w<span>&#160;</span>języku ojczystym oraz angielskim, najważniejszą wartością
+                tej
                 metody jest autentyczność i<span>&#160;</span>celowość;</li>
             <li> <b>Metoda zadaniowa (task-based learning)</b> - stwarza okazję do współdziałania
                 oraz poszukiwania wiadomości na określony temat, a<span>&#160;</span>także dokonywania ich
@@ -567,31 +630,43 @@
             <li><b> Drama </b>- polega na odgrywaniu scenek przez dzieci, improwizacji oraz inscenizacji.
                 Istotną zaletą dramy jest pobudzanie wyobraźni dzieci oraz wdrażanie do współpracy,
                 komunikacji i<span>&#160;</span>pracy w<span>&#160;</span>grupie;</li>
-            <li><b> Wizualizacja i<span>&#160;</span>ćwiczenia relaksacyjne </b>b> - polegają na stwarzaniu
+            <li><b> Wizualizacja i<span>&#160;</span>ćwiczenia relaksacyjne </b> - polegają na stwarzaniu
                 relaksacyjnej
                 atmosfery,
                 która sprzyja słuchaniu języka, rozwijaniu wyobraźni oraz zmniejszaniu zahamowań
                 w mówieniu;</li>
-            <li> <b>Zajęcia plastyczne i<span>&#160;</span>sensoplastyka </b>- stanowią niezwykle ważny element ze
+            <li> <b>Zajęcia plastyczne i<span>&#160;</span>sensoplastyka </b>- stanowią niezwykle ważny element
+                ze
                 względu
                 na
-                wykorzystywanie naturalnej aktywności dzieci w<span>&#160;</span>poznawaniu języka oraz umożliwianie
+                wykorzystywanie naturalnej aktywności dzieci w<span>&#160;</span>poznawaniu języka oraz
+                umożliwianie
                 uczenia się przez działanie. Wykonywanie prac plastycznych motywuje również do
                 wypowiadania się na temat swoich prac oraz słuchania opowiadań innych dzieci.</li>
         </ul>
     </section>
     <div class="parallax parallax-4"></div>
     <footer>
-        <p> Jeśli utożsamiasz się z<span>&#160;</span>naszymi wartościami i<span>&#160;</span>ideami, dołącz do nas
-            już
-            dziś!
-            Zapraszamy do kontaktu!</p>
-        <p id="contact">
-            Mindful Kids<br>
-            Ewa Rekus<br>
-            <a href="mailto:mindfulkidss@gmail.com">mindfulkidss@gmail.com</a><br>
-            <a href="tel:+48517058255">517 058 255</a>
-        </p>
+        <div id="contact">
+            <span id="contactPushed" class="pushed"></span>
+            <p> Jeśli utożsamiasz się z<span>&#160;</span>naszymi wartościami i<span>&#160;</span>ideami, dołącz do
+                nas
+                już
+                dziś!
+                Zapraszamy do kontaktu!</p>
+            <p>
+                Niepubliczne Przedszkole<br>
+                Mindful Kids<br>
+                Ewa Rekus<br>
+                <br>
+                <address>
+                    ul. Krogulcza 18<br>
+                    43-300 Bielsko-Biała<br>
+                    <a href="mailto:mindfulkidss@gmail.com">mindfulkidss@gmail.com</a><br>
+                    <a href="tel:+48517058255">517 058 255</a>
+                </address>
+            </p>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
