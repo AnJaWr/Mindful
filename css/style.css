@@ -196,6 +196,7 @@ footer {
 footer p,
 address {
   text-align: center;
+  color: rgb(201, 220, 139);
 }
 
 footer a {
