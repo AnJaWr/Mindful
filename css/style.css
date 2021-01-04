@@ -37,8 +37,10 @@ body {
 }
 
 .video {
-  width: 100%;
+  width: 560px;
+  height: 315px;
 }
+
 .pushed {
   position: absolute;
   top: -250px;
@@ -238,6 +240,11 @@ footer a:hover {
   }
   .carousel {
     display: none;
+  }
+
+  .video {
+    width: 90%;
+    height: auto;
   }
 }
 
