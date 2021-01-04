@@ -35,6 +35,10 @@ body {
 .header_inner h1 {
   color: rgb(39, 128, 178);
 }
+
+.video {
+  width: 100%;
+}
 .pushed {
   position: absolute;
   top: -250px;
@@ -231,7 +235,6 @@ footer a:hover {
   .logo {
     height: 65%;
   }
-
   .carousel {
     display: none;
   }
